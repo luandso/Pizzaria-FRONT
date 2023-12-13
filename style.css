@@ -1,0 +1,179 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-image: url(./img/Background.svg);
+    background-size: cover;
+}
+.logo img{
+    width: 45vw;
+    margin-left: 20px;
+    margin-top: 25px;
+}
+main{
+    margin-top: 26vh;
+    height: 30vh;
+    margin-left: 20px;
+}
+.div-titulo{
+    width: 60vw;
+}
+.titulo{
+    font-family: 'Roboto', sans-serif;
+    color: rgb(255, 255, 255);
+    font-size: 36px;
+    text-align: left;
+}
+.div-subtitulo{
+    width: 90vw;
+    
+}
+.subtitulo{
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    color: rgb(255, 255, 255);
+    margin-top: 4vh;
+}
+footer{
+    display: flex;
+    justify-content:center;
+    margin-top: 10vh;
+}
+.botao{
+    text-decoration: none;
+    border-radius: 10px;
+    margin-top: 2vh;
+}
+.botao-comecar{
+    background-color: rgb(255, 255, 255);
+    width: 70vw;
+    height: 6vh;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.comecar{
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    color: rgb(242, 119, 6);
+    font-weight: bold;
+}
+
+
+.login{
+    position: relative;
+    margin-top: 4vh;
+}
+.titulo-login{
+    width: 60vw;
+}
+.texto-titulo-login{
+    font-family: 'Roboto', sans-serif;
+    color: rgb(255, 255, 255);
+    font-size: 36px;
+    text-align: left;
+}
+.subtitulo-login{
+    width: 80vw;
+}
+.texto-subtitulo-login{
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    color: rgb(255, 255, 255);
+    margin-top: 1.5vh;
+}
+.dados-login{
+    margin-top: 5vh;
+    margin-left: 6vw;
+
+}
+.email{
+    display: flex;
+    align-items: center;
+}
+.icon-email{
+    margin-right: 1vh;
+}
+input{
+    border: none;
+    width: 64vw;
+    height: 3vh;
+    background-color: transparent;
+    caret-color: rgb(255, 255, 255);
+    color: rgb(255, 255, 255);
+    font-size: 14px;
+}
+input:focus {
+    box-shadow: 0 0 0 0;
+    outline: 0;
+}
+input::placeholder{
+    font-family: 'Roboto', sans-serif;
+    color: rgb(255, 255, 255);
+    font-size: 14px;
+}
+hr{
+    margin-right: 10vw;
+    background-color:rgb(255, 255, 255);
+    border: none;
+    height: 1px;
+    margin-top: 5px;
+    width: 72vw;
+}
+.senha{
+    display: flex;
+    align-items: center;
+    margin-top: 6vh;
+}
+.icon-senha{
+    margin-right: 1vh;
+}
+.enviar-info{
+    text-decoration: none;
+    border-radius: 10px;
+}
+.botao-enviar-info{
+    background-color: rgb(255, 255, 255);
+    width: 70vw;
+    height: 6vh;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 2vh;
+    margin-left: 7vw;
+}
+.enviar{
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    color: rgb(242, 119, 6);
+    font-weight: bold;
+}
+.esqueci-senha{
+    text-align: end;
+    margin-top: 10px;
+    margin-right: 65px;
+    font-family: 'Roboto', sans-serif;
+    color: rgb(255, 255, 255);
+    font-size: 12px;
+}
+.botao-criar-conta{
+    display: flex;
+    justify-content: center;
+}
+.texto-criar-conta{
+    color: rgb(255, 255, 255);
+    font-family: 'Roboto', sans-serif;
+}
+.criar-conta{
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    margin-left: 22vw;
+    height: 5vh;
+    width: 42vw;
+    margin-top: 8vh;
+}
